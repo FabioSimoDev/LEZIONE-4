@@ -1,0 +1,259 @@
+/* IMPOSTAZIONI GENERALI */
+body{
+    background-image: url(../img/sfondo.png);
+    background-size: auto;
+    background-repeat: repeat-y;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    color: #00A0CC;
+    font-weight: bold;
+}
+a li{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 0.7em;
+}
+
+.email{
+    color: #FF00FE;
+}
+
+iframe{
+    border-radius: 20px;
+    margin-bottom: 2.6em;
+    margin-top: 1.3em;
+}
+
+/* HEADER */
+nav{
+    background-image: linear-gradient(#47B1D6, #006888);
+    background-color: #0E6787;
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    box-shadow: 1px 5px 8px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 5px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 8px -1px rgba(0,0,0,0.75);
+    border-radius: 3px;
+}
+
+nav img{
+    width: 15em;
+    margin-top: 1.4em;
+    margin-bottom: 2em;
+}
+
+nav ul{
+    padding-bottom: 1.5em;
+    color: white;
+}
+
+nav p{
+    color: white;
+    font-weight: bold;
+}
+
+nav > p{
+    margin-bottom: 1.2em;
+}
+
+.code{
+    background-color: #E4E2E3;
+    border: 1px solid #C1C3C1;
+    border-radius: 10px;
+}
+
+/* MAIN */
+
+body main{
+    padding: 15px;
+    padding-bottom: 3.5em;
+    background-color: white;
+    width: 82.5%;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 0em;
+    box-shadow: 1px 5px 8px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 5px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 8px -1px rgba(0,0,0,0.75);
+    border-radius: 3px;
+    line-height: 1.5em;
+}
+
+main h1{
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3em;
+}
+
+main div > h3{
+    font-style: italic;
+}
+
+main h3, h4{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1.5em;
+}
+
+h5{
+    margin-bottom: 2em;
+}
+
+main form p, main section p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+
+.current_post_info span{
+    color: rgb(156, 156, 156);
+}
+
+.current_post_info{
+    margin-bottom: 0.9em;
+}
+
+.keywords{
+    color: #AA2272;
+    font-weight: bold;
+}
+
+main ul li{
+    list-style-type: disc;
+    margin-left: 1.7em;
+    margin-bottom: 0.5em;
+}
+
+main ul{
+    margin-bottom: 1em;
+}
+
+ol li{
+    list-style-type: decimal;
+    margin-left: 1.7em;
+    margin-bottom: 0.5em;
+}
+
+ol{
+    margin-bottom: 1em;
+    margin-top: 1.3em;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom: 2px solid #3866C8;
+    border-radius: 3px;
+    margin-bottom: 2em;
+}
+
+tr{
+    line-height: 2em;
+}
+  
+th, td {
+    padding: 5px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #EFEFEF;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+  
+th {
+    background-color: #3866C8;
+    text-align: center;
+    height: 2em;
+    line-height: 3em;
+    color: white;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+  
+td {
+    text-align: center;
+}
+  
+
+/* FORM */
+
+form{
+    background-color: #E2DFE1;
+    padding: 1em;
+    padding-top: 0.1em;
+    width: 90%;
+    line-height: 230%;
+}
+
+form input[type=text]{
+    border: 0px;
+    border-bottom: 1px solid #9A9D9F;
+    border-style: dashed;
+    line-height: 1.8em;
+    margin-left: 2em;
+}
+
+form input[type="button"]{
+    border: 0;
+    color: white;
+    background-color: #3366CC;
+    line-height: 1.8em;
+    width: 20%;
+}
+
+form p{
+    margin-top: 1.6em;
+    line-height: 1.3;
+}
+/* ELEMENTI NELL' ASIDE */
+
+.articolo{
+    background-color: #E2DFE1;
+    padding: 1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.5em;
+    width: 90%;
+    line-height: 230%;
+    margin-top: 1.2em;
+    border: 2px solid lightgray
+}
+
+.articolo p{
+    line-height: 1.5em;
+}
+.suggested_article_date{
+    text-align: right;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-image: linear-gradient(#206480, #343736);
+    color: white;
+    padding: 15px;
+    padding-bottom: 2em;
+    width: 82.5%;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.2em;
+    box-shadow: 1px 5px 8px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 5px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 8px -1px rgba(0,0,0,0.75);
+    border-radius: 3px;
+    text-align: center;
+}
